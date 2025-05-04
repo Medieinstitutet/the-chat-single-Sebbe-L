@@ -1,6 +1,6 @@
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-import "./chat.css"; // Importera CSS-fil för styling
+import "./chat.css";
 
 const socket = io("http://localhost:3001");
 
